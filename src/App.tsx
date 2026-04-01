@@ -54,7 +54,7 @@ function App() {
             </div>
           </div>
           <h1 className="uppercase font-medium text-2xl text-[#0D4871]">
-            Transformación digital
+            Transformación digital en la organización
           </h1>
         </div>
         <div className="w-full h-[350px]">
