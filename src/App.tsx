@@ -192,8 +192,8 @@ function App() {
         </div>
       </div>
       <footer className="w-[90%] lg:container mx-auto lg:w-full h-[64px] flex flex-col md:flex-row justify-between items-center text-[#051e2f] lg:text-xl gap-2 md:gap-0 text-center md:text-start">
-        <span>Grupo Ibárcena 2026</span>
-        <span>Todos los derechos reservados - Tecnología de Información</span>
+        <span className="uppercase">Grupo Ibárcena</span>
+        <span>Tecnología de la información</span>
       </footer>
     </main>
   );
