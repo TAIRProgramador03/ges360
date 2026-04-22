@@ -182,9 +182,18 @@ function App() {
         >
           <div className="w-0 h-0 border-[10px] border-t-0 border-b-[20px] border-transparent border-b-[#0B365E]" />
           <div className="w-[250px] h-[150px] bg-[#0B365E] rounded-lg text-white flex flex-col justify-center items-center gap-2">
-            {url == "" ? <span></span> : <span>v1.0.0</span>}
             <h3 className="font-medium text-4xl uppercase">{name}</h3>
-            {url == "" && <span className="text-white">Próximamente...</span>}
+            {url == "" ? (
+              <span className="text-white">Próximamente...</span>
+            ) : (
+              <a
+                href={`https://${url}`}
+                target="_blank"
+                className="px-6 py-1 bg-[#12C4B6] rounded-md cursor-pointer"
+              >
+                Ingresar
+              </a>
+            )}
           </div>
         </div>
       </div>
