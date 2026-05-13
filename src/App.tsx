@@ -22,17 +22,17 @@ function App() {
     "Gescom",
   ];
   const links = [
-    "",
+    "gescon.tair360.net",
     "gesneu.tair360.net",
-    "",
+    "gescon.tair360.net",
     "gescom.tair360.net",
-    "",
+    "gescon.tair360.net",
     "gesneu.tair360.net",
-    "",
+    "gescon.tair360.net",
     "gescom.tair360.net",
-    "",
+    "gescon.tair360.net",
     "gesneu.tair360.net",
-    "",
+    "gescon.tair360.net",
     "gescom.tair360.net",
   ];
   const [name, setName] = useState(titulos[0]);
